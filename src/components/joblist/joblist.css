@@ -1,0 +1,71 @@
+
+
+.card_box{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    height:20hv;
+}
+
+img{
+    margin-right: 5px;
+    max-width: 100%;
+}
+
+ul.icon-list {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 15px 0px;
+}
+.icon{
+    display: flex;
+}
+.icon-list li{
+    list-style: none;
+   
+}
+span{
+    margin-right: 0.1rem;
+}
+ul.badages li:first-child {
+	background-color: #cbd8f2;
+	color: #3662bb;
+	padding: 5px 15px;
+	border-radius: 15px;
+}
+
+ul.badages li:nth-child(2) {
+	background-color: #fef3db;
+	color: #b89957;
+	padding: 5px 15px;
+	border-radius: 15px;
+}
+/* .card-img img {
+    display: flex;
+    justify-content: center;
+   
+} */
+
+.bookmark {
+    position: absolute;
+    top: -15px;
+    float: right;
+    /* width: 100%; */
+    right: 15px;
+}
+ul.icon-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 0px 0px;
+}
+ul.icon-list li img {
+    height: 24px;
+}
+h3.post-title {
+    font-size: 18px;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 4px;
+}
